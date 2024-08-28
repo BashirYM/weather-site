@@ -4,7 +4,7 @@
 }
 body {
   height: 100%;
-  background-image: url(/media/download.jpg);
+  background-image: url(./media/download.jpg);
   /* background-color: rgba(216, 112, 147, 0.359); */
   padding: 10%;
 }
