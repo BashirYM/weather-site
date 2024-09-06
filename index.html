@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body style="background: url('./media/default-weather.jpg') no-repeat center center fixed; background-size: cover;">
+      <div class="weather-app">
+        <div class="weather-info">
+        <div class="temperature" id="temp">Temp</div>
+        <div class="location" id="location">City Name</div>
+        <div class="date" id="date">Date</div>
+        <div class="condition" id="condition">Weather Condition
+        </div>
+        <img id="weather-icon" src="" alt="Weather Icon" />
+        <div class="feeling-display" id="feeling-display">
+          How are we feeling?
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="location-input" placeholder="Enter city name" />
+        <textarea id="feelings" placeholder="Enter how you feel"></textarea>
+        <button id="generate">Search</button>
+      </div>
+    </div>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
